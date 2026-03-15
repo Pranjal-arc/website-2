@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - 4Bites Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍜</span>
+                <span>4Bites</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="booking.html" class="btn-nav">Book Table</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero small">
+        <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1920&h=600&fit=crop')"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1 data-animate="fade-up">Gallery</h1>
+            <p data-animate="fade-up" data-delay="200">A visual journey through 4Bites</p>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-page-section">
+        <div class="container">
+            <div class="gallery-masonry">
+                <div class="gallery-item tall" data-animate="fade-up" data-delay="100">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=900&fit=crop" alt="Restaurant Interior">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Our Space</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="150">
+                    <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&h=400&fit=crop" alt="MoMo">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Signature MoMo</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="200">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop" alt="Fine Dining">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Fine Dining</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-animate="fade-up" data-delay="250">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&h=600&fit=crop" alt="Rooftop">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Rooftop Vibes</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="300">
+                    <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop" alt="Sushi">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Fusion Sushi</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-animate="fade-up" data-delay="350">
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=600&h=900&fit=crop" alt="Bar">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Craft Bar</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="400">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop" alt="Thakali">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Thakali Set</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="450">
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop" alt="Live Music">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Live Music</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-animate="fade-up" data-delay="500">
+                    <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1200&h=600&fit=crop" alt="Team">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Our Team</span>
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram CTA -->
+    <section class="instagram-section">
+        <div class="container">
+            <div class="instagram-content" data-animate="fade-up">
+                <span class="section-tag">Follow Us</span>
+                <h2>@4bitescafe</h2>
+                <p>Share your 4Bites moments with us</p>
+                <a href="#" class="btn btn-outline magnetic">
+                    <span>View Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <span class="logo-icon">🍜</span>
+                            <span>4Bites</span>
+                        </a>
+                        <p>Bringing the authentic flavors of Nepal and South Asia to London since 2020.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="booking.html">Book Table</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li><span>📍</span><span>123 High Street, London</span></li>
+                            <li><span>📞</span><span>+44 20 1234 5678</span></li>
+                            <li><span>✉️</span><span>info@4bitescafe.com</span></li>
+                        </ul>
+                    </div>
+                    <div class="footer-hours">
+                        <h4>Opening Hours</h4>
+                        <ul class="hours-list">
+                            <li><span>Mon - Thu</span><span>12PM - 10PM</span></li>
+                            <li><span>Fri - Sat</span><span>12PM - 12AM</span></li>
+                            <li><span>Sunday</span><span>12PM - 9PM</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 4Bites Cafe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <img src="" alt="" class="lightbox-image">
+        <button class="lightbox-prev">❮</button>
+        <button class="lightbox-next">❯</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

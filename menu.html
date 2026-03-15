@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - 4Bites Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍜</span>
+                <span>4Bites</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html" class="btn-nav">Book Table</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero small">
+        <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&h=600&fit=crop')"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1 data-animate="fade-up">Our Menu</h1>
+            <p data-animate="fade-up" data-delay="200">Authentic flavors, crafted with passion</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-page-section">
+        <div class="container">
+            <!-- Menu Filters -->
+            <div class="menu-filters" data-animate="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="starters">Starters</button>
+                <button class="filter-btn" data-filter="mains">Mains</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+            </div>
+
+            <!-- Starters -->
+            <div class="menu-category" data-category="starters">
+                <h2 class="category-title" data-animate="fade-up">
+                    <span class="cat-icon">🥟</span>
+                    Starters
+                </h2>
+                <div class="menu-items-grid">
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="100">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=400&h=300&fit=crop" alt="MoMo">
+                            <span class="item-badge">Popular</span>
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Nepali MoMo (8 pcs)</h3>
+                                <span class="menu-item-price">£12.95</span>
+                            </div>
+                            <p>Steamed dumplings with chicken/veg filling, served with tomato-sesame chutney</p>
+                            <div class="menu-item-tags">
+                                <span class="tag spicy">🌶️ Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="200">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop" alt="Samosa">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Crispy Samosas (4 pcs)</h3>
+                                <span class="menu-item-price">£7.95</span>
+                            </div>
+                            <p>Golden fried pastries filled with spiced potatoes and peas</p>
+                            <div class="menu-item-tags">
+                                <span class="tag veg">🥬 Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="300">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&h=300&fit=crop" alt="Katti Roll">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Katti Roll</h3>
+                                <span class="menu-item-price">£10.95</span>
+                            </div>
+                            <p>Street-style paratha wrap with grilled chicken, onions, and green chutney</p>
+                            <div class="menu-item-tags">
+                                <span class="tag spicy">🌶️ Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mains -->
+            <div class="menu-category" data-category="mains">
+                <h2 class="category-title" data-animate="fade-up">
+                    <span class="cat-icon">🍛</span>
+                    Main Courses
+                </h2>
+                <div class="menu-items-grid">
+                    <div class="menu-item-card featured" data-animate="fade-up" data-delay="100">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop" alt="Thakali Set">
+                            <span class="item-badge chef">Chef's Choice</span>
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Thakali Rice Set</h3>
+                                <span class="menu-item-price">£18.95</span>
+                            </div>
+                            <p>Complete Nepali meal: dal, seasonal vegetables, pickles, papad, and steamed rice</p>
+                            <div class="menu-item-tags">
+                                <span class="tag veg">🥬 Veg Option</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="200">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop" alt="Burger">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Himalayan Burger</h3>
+                                <span class="menu-item-price">£14.95</span>
+                            </div>
+                            <p>Premium beef patty with yak cheese, caramelized onions, and signature sauce</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="300">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop" alt="Biryani">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Lamb Biryani</h3>
+                                <span class="menu-item-price">£16.95</span>
+                            </div>
+                            <p>Fragrant basmati rice with tender lamb, saffron, and aromatic spices</p>
+                            <div class="menu-item-tags">
+                                <span class="tag spicy">🌶️ Medium</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="400">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400&h=300&fit=crop" alt="Sushi">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Fusion Sushi Platter</h3>
+                                <span class="menu-item-price">£22.95</span>
+                            </div>
+                            <p>12 pieces of fresh sushi with South Asian twists - mango, spiced mayo</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="500">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=400&h=300&fit=crop" alt="Tandoori">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Tandoori Mixed Grill</h3>
+                                <span class="menu-item-price">£19.95</span>
+                            </div>
+                            <p>Selection of chicken tikka, seekh kebab, and lamb chops from clay oven</p>
+                            <div class="menu-item-tags">
+                                <span class="tag spicy">🌶️ Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drinks -->
+            <div class="menu-category" data-category="drinks">
+                <h2 class="category-title" data-animate="fade-up">
+                    <span class="cat-icon">🍹</span>
+                    Drinks
+                </h2>
+                <div class="menu-items-list">
+                    <div class="menu-item-simple" data-animate="fade-up" data-delay="100">
+                        <div class="item-info">
+                            <h3>Nepali Masala Tea (Chiya)</h3>
+                            <p>Traditional spiced tea with cardamom, ginger, and cloves</p>
+                        </div>
+                        <span class="menu-item-price">£3.50</span>
+                    </div>
+                    <div class="menu-item-simple" data-animate="fade-up" data-delay="150">
+                        <div class="item-info">
+                            <h3>Mango Lassi</h3>
+                            <p>Creamy yogurt drink blended with fresh alphonso mango</p>
+                        </div>
+                        <span class="menu-item-price">£4.95</span>
+                    </div>
+                    <div class="menu-item-simple" data-animate="fade-up" data-delay="200">
+                        <div class="item-info">
+                            <h3>Signature Coffee</h3>
+                            <p>House blend espresso with Himalayan honey option</p>
+                        </div>
+                        <span class="menu-item-price">£4.50</span>
+                    </div>
+                    <div class="menu-item-simple" data-animate="fade-up" data-delay="250">
+                        <div class="item-info">
+                            <h3>Fresh Lime Soda</h3>
+                            <p>Refreshing lime with soda, mint, and a hint of black salt</p>
+                        </div>
+                        <span class="menu-item-price">£3.95</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category" data-category="desserts">
+                <h2 class="category-title" data-animate="fade-up">
+                    <span class="cat-icon">🍮</span>
+                    Desserts
+                </h2>
+                <div class="menu-items-grid">
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="100">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=400&h=300&fit=crop" alt="Gulab Jamun">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Gulab Jamun</h3>
+                                <span class="menu-item-price">£6.95</span>
+                            </div>
+                            <p>Warm milk dumplings soaked in rose-cardamom syrup with vanilla ice cream</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-card" data-animate="fade-up" data-delay="200">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop" alt="Kheer">
+                        </div>
+                        <div class="menu-item-body">
+                            <div class="menu-item-header">
+                                <h3>Saffron Rice Kheer</h3>
+                                <span class="menu-item-price">£5.95</span>
+                            </div>
+                            <p>Creamy rice pudding with saffron, pistachios, and rose petals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <span class="logo-icon">🍜</span>
+                            <span>4Bites</span>
+                        </a>
+                        <p>Bringing the authentic flavors of Nepal and South Asia to London since 2020.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="booking.html">Book Table</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li><span>📍</span><span>123 High Street, London</span></li>
+                            <li><span>📞</span><span>+44 20 1234 5678</span></li>
+                            <li><span>✉️</span><span>info@4bitescafe.com</span></li>
+                        </ul>
+                    </div>
+                    <div class="footer-hours">
+                        <h4>Opening Hours</h4>
+                        <ul class="hours-list">
+                            <li><span>Mon - Thu</span><span>12PM - 10PM</span></li>
+                            <li><span>Fri - Sat</span><span>12PM - 12AM</span></li>
+                            <li><span>Sunday</span><span>12PM - 9PM</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 4Bites Cafe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
